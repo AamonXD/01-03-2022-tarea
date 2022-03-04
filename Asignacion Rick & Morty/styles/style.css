@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/979/756/6/rick-and-morty-tv-adult-swim-rick-sanchez-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.card-character{
+    background-color:#303030;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    margin: 10px;
+}
+
+.card-character:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    box-shadow: 2px 0px 26px 1px #000000;
+}
+
+.death{
+    width: 10px;
+    height: 10px;
+    background-color: #ff0000;
+    border-radius: 50px;
+}
+
+.alive{
+    width: 10px;
+    height: 10px;
+    background-color: #00ff2a;
+    border-radius: 50px;
+}
+
+.status div{
+    display: inline-block;
+}
+
+.status h2{
+    display: inline;
+}
+
+h1:hover{
+    color: #F77D0A;
+    cursor: pointer;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.containerInfo{
+    margin: 10px;
+}
+
